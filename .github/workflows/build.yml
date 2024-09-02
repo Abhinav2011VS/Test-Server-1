@@ -3,7 +3,7 @@ name: Deploy Minecraft Server and Commit Changes
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   start-server:
@@ -39,7 +39,7 @@ jobs:
           screen -dmS mc_server /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.4-7/x64/bin/java -Xmx10G -XX:+UseG1GC -jar server.jar nogui
           echo "Minecraft server started in detached screen session."
 
-          # Wait for 5 hours to ensure the server has time to run
+          # Wait for 5 minutes to ensure the server has time to run
           echo "Waiting for 5 minutes..."
           sleep 300
 
@@ -61,8 +61,6 @@ jobs:
 
   commit-changes:
     runs-on: ubuntu-latest
-    needs: start-server
-    if: success() || failure()
 
     steps:
       - name: Checkout code
@@ -76,7 +74,7 @@ jobs:
           echo "https://:${{ secrets.GIT_AUTH_TOKEN }}@github.com" > ~/.git-credentials
 
       - name: Wait before starting commit
-        run: sleep 120 # Wait for 2 minutes
+        run: sleep 10 # Wait for 10 seconds
 
       - name: Continuous Commit
         run: |
