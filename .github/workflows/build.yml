@@ -40,8 +40,8 @@ jobs:
           echo "Minecraft server started in detached screen session."
 
           # Wait for 5 hours to ensure the server has time to run
-          echo "Waiting for 5 hours..."
-          sleep 18000
+          echo "Waiting for 5 minutes..."
+          sleep 300
 
           # Capture the output of the Minecraft server
           echo "Capturing server output..."
