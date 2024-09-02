@@ -1,0 +1,147 @@
+deathLogs:
+  96d0316a-5835-3a5d-adf5-2b6bfbf1dfeb:
+  - deathMessage: SupremeMax drowned
+    deathLocation:
+      ==: org.bukkit.Location
+      world: world
+      x: -33.67824519657669
+      y: 56.860648159846775
+      z: -237.07293426024816
+      pitch: -35.85024
+      yaw: -156.59917
+    playerName: SupremeMax
+    deathDate: 2024-08-30T10:58:02.331Z
+    causeOfDeath: SupremeMax drowned
+  - deathMessage: SupremeMax was shot by Skeleton
+    deathLocation:
+      ==: org.bukkit.Location
+      world: world
+      x: -176.71317281726454
+      y: 67.0
+      z: -1102.780170024481
+      pitch: 9.000043
+      yaw: 99.448975
+    playerName: SupremeMax
+    deathDate: 2024-08-30T11:09:54.815Z
+    causeOfDeath: SupremeMax was shot by Skeleton
+  - deathMessage: SupremeMax was slain by PixelPulse21
+    deathLocation:
+      ==: org.bukkit.Location
+      world: world_nether
+      x: 271.3645745165827
+      y: 67.0
+      z: -737.2919176894986
+      pitch: 48.600094
+      yaw: 71.55391
+    playerName: SupremeMax
+    deathDate: 2024-08-30T11:57:34.662Z
+    causeOfDeath: SupremeMax was slain by PixelPulse21
+  - deathMessage: SupremeMax was slain by Piglin Brute
+    deathLocation:
+      ==: org.bukkit.Location
+      world: world_nether
+      x: 292.46557952141046
+      y: 80.0
+      z: -857.3000000119209
+      pitch: 27.000053
+      yaw: -111.44606
+    playerName: SupremeMax
+    deathDate: 2024-08-30T11:59:33.764Z
+    causeOfDeath: SupremeMax was slain by Piglin Brute
+  - deathMessage: SupremeMax was slain by Piglin Brute
+    deathLocation:
+      ==: org.bukkit.Location
+      world: world_nether
+      x: 295.69999998807907
+      y: 80.0
+      z: -857.3000000119209
+      pitch: 20.999958
+      yaw: 138.5999
+    playerName: SupremeMax
+    deathDate: 2024-08-30T12:00:16.803Z
+    causeOfDeath: SupremeMax was slain by Piglin Brute
+  37fad011-70c6-396d-ad5b-a02a1e9fca51:
+  - deathMessage: PixelPulse21 drowned
+    deathLocation:
+      ==: org.bukkit.Location
+      world: world
+      x: -37.92262859273872
+      y: 50.282225878296664
+      z: -221.38070722694644
+      pitch: -11.399979
+      yaw: -55.05014
+    playerName: PixelPulse21
+    deathDate: 2024-08-30T10:57:04.391Z
+    causeOfDeath: PixelPulse21 drowned
+  - deathMessage: PixelPulse21 was slain by Zombie
+    deathLocation:
+      ==: org.bukkit.Location
+      world: world
+      x: -186.30000001192093
+      y: 71.0
+      z: -1098.8731237156962
+      pitch: 18.75024
+      yaw: -132.90219
+    playerName: PixelPulse21
+    deathDate: 2024-08-30T11:08:00.935Z
+    causeOfDeath: PixelPulse21 was slain by Zombie
+  - deathMessage: PixelPulse21 was slain by Zombie
+    deathLocation:
+      ==: org.bukkit.Location
+      world: world
+      x: -166.30000001192093
+      y: 63.0
+      z: -1098.3826475043495
+      pitch: 19.200167
+      yaw: 84.296326
+    playerName: PixelPulse21
+    deathDate: 2024-08-30T11:09:04.625Z
+    causeOfDeath: PixelPulse21 was slain by Zombie
+  - deathMessage: PixelPulse21 burned to death
+    deathLocation:
+      ==: org.bukkit.Location
+      world: world
+      x: -214.44620716006614
+      y: -53.0
+      z: -1250.5265948521942
+      pitch: 28.650036
+      yaw: 12.3602295
+    playerName: PixelPulse21
+    deathDate: 2024-08-30T11:39:48.815Z
+    causeOfDeath: PixelPulse21 burned to death
+  - deathMessage: PixelPulse21 was slain by SupremeMax
+    deathLocation:
+      ==: org.bukkit.Location
+      world: world_nether
+      x: 271.0332452855062
+      y: 67.0
+      z: -732.8091854286947
+      pitch: 47.55018
+      yaw: 141.60556
+    playerName: PixelPulse21
+    deathDate: 2024-08-30T11:57:14.645Z
+    causeOfDeath: PixelPulse21 was slain by SupremeMax
+  - deathMessage: PixelPulse21 was slain by Piglin Brute
+    deathLocation:
+      ==: org.bukkit.Location
+      world: world_nether
+      x: 307.30000001192093
+      y: 83.0
+      z: -850.3000000119209
+      pitch: -0.90005964
+      yaw: -163.64313
+    playerName: PixelPulse21
+    deathDate: 2024-08-30T11:59:27.454Z
+    causeOfDeath: PixelPulse21 was slain by Piglin Brute
+  - deathMessage: PixelPulse21 was slain by Piglin Brute
+    deathLocation:
+      ==: org.bukkit.Location
+      world: world_nether
+      x: 292.30000001192093
+      y: 80.22024205841701
+      z: -858.2938306450142
+      pitch: 21.899996
+      yaw: -136.9499
+    playerName: PixelPulse21
+    deathDate: 2024-08-30T12:00:13.410Z
+    causeOfDeath: PixelPulse21 was slain by Piglin Brute

@@ -1,0 +1,66 @@
+# Made by bloodred; also known as aadinath
+# For help, https://dsc.gg/kmds
+
+
+# List banned words like shown below
+# - hack
+# Also has regex support like [a-zA-Z0-9_.?=]*
+# Read https://www.w3schools.com/java/java_regex.asp
+# Don't use
+# - crashing
+# - crashed
+# Instead use regex support
+# - crash[a-z]*
+banned-words:
+- fuck
+- suck
+- sex
+
+checks:
+  # Check banned words on chat
+  chat:
+    # Enable checks
+    enabled: true
+    # Possible values for action: CANCEL_EVENT, IP_BAN, ACCOUNT_BAN, KICK, ACCOUNT_WITH_IP_BAN, CENSOR
+    action: CENSOR
+  
+  # Check banned word on player's display name
+  player-display-name:
+    # Enable checks
+    enabled: false
+    # Possible values for action: CANCEL_EVENT, IP_BAN, ACCOUNT_BAN, KICK, ACCOUNT_WITH_IP_BAN
+    action: KICK
+  
+  # Check banned words in books (title and content)
+  book:
+    # Enable checks
+    enabled: true
+    # Possible values for action: CANCEL_EVENT, IP_BAN, ACCOUNT_BAN, KICK, ACCOUNT_WITH_IP_BAN, CENSOR
+    action: CENSOR
+  
+  # Check banned words when naming items in anvil
+  anvil:
+    # Enable checks
+    enabled: true
+    # Possible values for action: CANCEL_EVENT, IP_BAN, ACCOUNT_BAN, KICK, ACCOUNT_WITH_IP_BAN
+    action: CANCEL_EVENT
+  
+  # Check banned words in commands
+  command:
+    # Enable checks
+    enabled: true
+    # Possible values for action: CANCEL_EVENT, IP_BAN, ACCOUNT_BAN, KICK, ACCOUNT_WITH_IP_BAN
+    action: CANCEL_EVENT
+  
+  # Check banned words on signs
+  sign:
+    # Enable checks
+    enabled: true
+    # Possible values for action: CANCEL_EVENT, IP_BAN, ACCOUNT_BAN, KICK, ACCOUNT_WITH_IP_BAN, CENSOR
+    action: CENSOR
+
+discord-webhook:
+  # Enable discord webhook supports
+  enabled: false
+  # Set your webhook url
+  url: https://discord.com/api/webhooks/your/webhook/url

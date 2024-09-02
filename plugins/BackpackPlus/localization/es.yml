@@ -1,0 +1,46 @@
+# Spanish language / Idioma español
+# Translated by: Sopherine(isofix19)
+
+# Message when the backpack starts to be loaded from the database (after player interaction)
+backpack-loading: "#eb0000Cargando mochila..."
+# Message when the backpack has been loaded
+backpack-loaded: "¡La mochila se cargó correctamente!"
+# Message when the backpack is updating and the player tries to open it
+backpack-updating: "Actualizando la Mochila..."
+# Message when the backpack could not be loaded
+backpack-loading-error: "&cHubo un problema mientras cargaba la mochila"
+# When a player tries to open a backpack, but it is being used by another player
+backpack-is-used-by-another-player: "&cLa mochila está siendo usada por otro jugador"
+
+# Message when admin changes crafting
+backpack-crafting-change: "&aLa fabricación de la mochila fue cambiada"
+# Message when a player tries to change crafting when it is empty or the same as before
+backpack-crafting-cannot-change: "&cLa fabricación de la mochila no puede cambiarse, porque esta vacío o es el mismo"
+# Message when admin cancels crafting changes
+backpack-crafting-change-cancelled: "&cEl cambio en la fabricación de la mochila se canceló"
+
+# Message after the backpack has been added by the player's backpack view
+# %player% Name of backpack owner
+backpack-added-inventory: "&6Added player's backpack&8: &f%player% &6a tu inventario"
+
+# If a player has no permissions
+command-no-permissions: "&4No tienes el permiso para este comando"
+# When a player has a cooldown
+cooldown-message: "#eb0000Espera antes de volver a usar la mochila"
+# When a player is not authorised to open a backpack
+backpack-no-permission-use: "&4No tienes permiso para abrir la mochila"
+# When the player's backpack recharges (using the command)
+loading-in-progress: "&6Caega en progreso... Espera un momento"
+# When players' backpacks could not be loaded
+players-backpack-not-loaded: "&cLa mochila de este jugador no pudo cargar correctamente"
+# When the player does not have any backpack
+player-not-created-backpacks: "&7Este jugador no creó ninguna mochila aún"
+# When the player is offline
+# %player% > Player Name
+player-is-offline: "&7Player&8: &f%player% &7 está desconectado"
+
+# Message when a player tries to have more backpacks than one (only if option in config is set to true: limit-backpack-per-inventory)
+one-backpack-per-inventory: "&cSolo puedes llevar una mochila"
+
+# Mensaje cuando el jugador intenta poner un objeto en el contenedor cuando está bloqueado
+blocked-backpack-insert-message: "&c¡No puedes poner este artículo aquí!!"

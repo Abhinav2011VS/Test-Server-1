@@ -1,0 +1,60 @@
+name: Deploy Minecraft Server
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  start-server:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Java 21
+        uses: actions/setup-java@v3
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+
+      - name: Install Dependencies
+        run: sudo apt-get update && sudo apt-get install -y wget screen
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+      - name: Verify Java Installation
+        run: java -version
+
+      - name: Verify Server File
+        run: ls -l server.jar
+
+      - name: Start Minecraft Server
+        run: |
+          # Start the Minecraft server in a detached screen session
+          screen -dmS mc_server /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.4-7/x64/bin/java -Xmx10G -XX:+UseG1GC -jar server.jar nogui
+          echo "Minecraft server started in detached screen session."
+
+          # Wait for 5 hours to ensure the server has time to run
+          echo "Waiting for 5 hours..."
+          sleep 18000
+
+          # Capture the output of the Minecraft server
+          echo "Capturing server output..."
+          screen -list
+          screen -r mc_server -X hardcopy ~/server_output.log
+          echo "Server output captured."
+
+          # Display the server output log
+          echo "Displaying server output log:"
+          cat ~/server_output.log
+
+      - name: Upload Server Logs
+        uses: actions/upload-artifact@v3
+        with:
+          name: server-logs
+          path: ~/server_output.log

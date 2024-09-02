@@ -1,0 +1,1 @@
+{"protocol":"websocket","id":"1279049169897656341","token":"18eb894eb16f14696e0ee8047703f2712","channels":[{"types":["chat","join","quit","advancement","death","player_command","console_command","block_command","start","close"],"webhook":"1279056493819330673","id":"1279056166626000897","allowDiscordToMinecraft":true}],"synced-roles":[],"stats-channels":[]}

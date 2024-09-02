@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "96d0316a-5835-3a5d-adf5-2b6bfbf1dfeb",
+    "name": "SupremeMax",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "14920dfc-e534-38a1-91e0-3aed4442bb9c",
+    "name": "SupremeProMax",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
