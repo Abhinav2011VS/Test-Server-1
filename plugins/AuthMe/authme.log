@@ -47,3 +47,5 @@
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
+[09-03 14:05:31]: [FINE] SupremeProMax registered 127.0.0.1
+[09-03 14:05:31]: [FINE] SupremeProMax logged in 127.0.0.1

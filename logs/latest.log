@@ -316,3 +316,5 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.ai.goa
 [14:05:12] [Server thread/INFO]: [FreezeHibernate] A player joined. Server is now unfrozen.
 [14:05:12] [Server thread/INFO]: SupremeProMax joined the game
 [14:05:12] [Server thread/INFO]: SupremeProMax[/127.0.0.1:55886] logged in with entity id 607 at ([world]7.5, 120.0, -7.5)
+[14:05:31] [Server thread/INFO]: [AuthMe] SupremeProMax registered 127.0.0.1
+[14:05:31] [Craft Scheduler Thread - 13 - AuthMe/INFO]: [AuthMe] SupremeProMax logged in 127.0.0.1
