@@ -7,9 +7,17 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:grove": "2024-09-03 14:04:36 +0000"
+      "minecraft:forest": "2024-09-03 14:06:30 +0000",
+      "minecraft:grove": "2024-09-03 14:04:36 +0000",
+      "minecraft:frozen_peaks": "2024-09-03 14:06:52 +0000"
     },
     "done": false
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2024-09-03 14:06:05 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3955
 }
