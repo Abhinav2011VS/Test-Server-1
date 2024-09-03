@@ -270,3 +270,30 @@ LagFixer - Best Performance Solution!
 [14:04:33] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
 [14:04:33] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
 [14:04:34] [User Authenticator #0/INFO]: UUID of player SupremeProMax is 14920dfc-e534-38a1-91e0-3aed4442bb9c
+[14:04:35] [Server thread/INFO]: [FreezeHibernate] A player joined. Server is now unfrozen.
+[14:04:35] [Server thread/INFO]: SupremeProMax joined the game
+[14:04:35] [Server thread/INFO]: SupremeProMax[/127.0.0.1:58878] logged in with entity id 29 at ([world]7.5, 120.0, -7.5)
+[14:04:35] [Craft Scheduler Thread - 12 - ImageFrame/INFO]: Map color cache not found, building it in the background
+[14:04:42] [Server thread/ERROR]: Entity threw exception at world:8.5,46.0,-14.5
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.ai.goal.WrappedGoal.isRunning()" because "wrappedGoal2" is null
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tick(GoalSelector.java:105) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:942) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3470) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.world.entity.Mob.aiStep(Mob.java:678) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.world.entity.monster.Monster.aiStep(Monster.java:44) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.world.entity.monster.Zombie.aiStep(Zombie.java:273) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3173) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.world.entity.Mob.tick(Mob.java:445) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.world.entity.monster.Zombie.tick(Zombie.java:241) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.world.entity.monster.ZombieVillager.tick(ZombieVillager.java:169) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1248) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:1420) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.level.ServerLevel.lambda$tick$4(ServerLevel.java:737) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:39) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:717) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1806) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
