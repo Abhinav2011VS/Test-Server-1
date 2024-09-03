@@ -298,3 +298,7 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.ai.goa
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
 [14:04:54] [Worker-Main-1/INFO]: Map color cache build successfully
+[14:05:05] [Server thread/INFO]: SupremeProMax lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
+[14:05:05] [Server thread/INFO]: [FreezeHibernate] Last player disconnected. Server is now frozen.
+[14:05:05] [Server thread/INFO]: SupremeProMax left the game
+[14:05:05] [nioEventLoopGroup-2-2/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to minecraft server
