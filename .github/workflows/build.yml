@@ -1,9 +1,9 @@
-name: Deploy Minecraft Server and Commit Changes
+name: Deploy Minecraft Server
 
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   start-server:
@@ -38,49 +38,18 @@ jobs:
           # Start the Minecraft server in a detached screen session
           screen -dmS mc_server /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.4-7/x64/bin/java -Xmx10G -XX:+UseG1GC -jar server.jar nogui
           echo "Minecraft server started in detached screen session."
-
-          # Wait for 5 minutes to ensure the server has time to run
-          echo "Waiting for 5 minutes..."
-          sleep 300
-
-          # Capture the output of the Minecraft server
-          echo "Capturing server output..."
-          screen -list
-          screen -r mc_server -X hardcopy ~/server_output.log
-          echo "Server output captured."
-
-          # Display the server output log
-          echo "Displaying server output log:"
-          cat ~/server_output.log
-
-      - name: Upload Server Logs
-        uses: actions/upload-artifact@v3
-        with:
-          name: server-logs
-          path: ~/server_output.log
-
-  commit-changes:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Configure Git
-        run: |
-          git config --global user.name "${{ secrets.USER_NAME }}"
-          git config --global user.email "${{ secrets.USER_EMAIL }}"
-          git config --global credential.helper store
-          echo "https://:${{ secrets.GIT_AUTH_TOKEN }}@github.com" > ~/.git-credentials
-
-      - name: Wait before starting commit
-        run: sleep 10 # Wait for 10 seconds
-
-      - name: Continuous Commit
-        run: |
+          
+          echo "Waiting for 2 minutes before starting commits..."
+          sleep 120
+          
+          sleep 18000 &&
+          
+          echo "Starting commit loop..." &&
           while true; do
-            git diff --exit-code || (git add . && git commit -m "Update server deployment workflow" && git push)
+            git diff --exit-code || (
+              git add . &&
+              git commit -m "Update server deployment workflow" &&
+              git push
+            )
             sleep 10
           done
-        env:
-          GIT_AUTH_TOKEN: ${{ secrets.GIT_AUTH_TOKEN }}
