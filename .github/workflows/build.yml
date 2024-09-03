@@ -33,23 +33,30 @@ jobs:
       - name: Verify Server File
         run: ls -l server.jar
 
-      - name: Start Minecraft Server
+      - name: Start Minecraft Server and Commiting
         run: |
           # Start the Minecraft server in a detached screen session
-          screen -dmS mc_server /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.4-7/x64/bin/java -Xmx10G -XX:+UseG1GC -jar server.jar nogui
+          screen -dmS mc_server /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.4-7/x64/bin/java -Xmx14G -XX:+UseG1GC -jar server.jar nogui
           echo "Minecraft server started in detached screen session."
+
+          # Wait for 2 minutes to allow the server to initialize
+          echo "Waiting for 2 minutes before starting commit loop..."
+          sleep 120 &
+
+          # Run the commit loop in the background
+          (
+            echo "Starting commit loop..."
+            while true; do
+              git diff --exit-code || (
+                git add . &&
+                git commit -m "Update server deployment workflow" &&
+                git push
+              )
+              sleep 10
+            done
+          ) &
+
+          # Let the server run for 5 hours (18000 seconds)
+          sleep 18000
           
-          echo "Waiting for 2 minutes before starting commits..."
-          sleep 120
-          
-          sleep 18000 &&
-          
-          echo "Starting commit loop..." &&
-          while true; do
-            git diff --exit-code || (
-              git add . &&
-              git commit -m "Update server deployment workflow" &&
-              git push
-            )
-            sleep 10
-          done
+          echo "Server has been running for 5 hours. Workflow completed."
