@@ -191,3 +191,5 @@ LagFixer - Best Performance Solution!
 [14:18:34] [Thread-16/INFO]: playit.gg: tunnel setup
 [14:18:34] [Thread-16/INFO]: playit.gg: otherwise-jewelry.joinmc.link
 [14:18:34] [Thread-16/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:860:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[14:18:34] [Thread-16/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[14:18:35] [EventThread/INFO]: [Discord-Linker] §aConnected to the Discord Bot!
