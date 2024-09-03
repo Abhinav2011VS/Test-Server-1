@@ -64,3 +64,138 @@
 [12:37:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
 [12:37:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
 [12:37:10] [Server thread/INFO]: Preparing level "world"
+[12:37:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:37:29] [Server thread/INFO]: Time elapsed: 7327 ms
+[12:37:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:37:31] [Server thread/INFO]: Time elapsed: 2466 ms
+[12:37:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:37:32] [Server thread/INFO]: Time elapsed: 482 ms
+[12:37:32] [Server thread/INFO]: [oplogin] Enabling oplogin v1.0-SNAPSHOT
+[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m] Enabling LagFixer v1.3.25 (build 89)
+[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m] 
+LagFixer - Best Performance Solution!
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░██╗░░░░░░█████╗░░██████╗░░░███████╗██╗██╗░░██╗███████╗██████╗░░
+░██║░░░░░██╔══██╗██╔════╝░░░██╔════╝██║╚██╗██╔╝██╔════╝██╔══██╗░
+░██║░░░░░███████║██║░░██╗░░░█████╗░░██║░╚███╔╝░█████╗░░██████╔╝░
+░██║░░░░░██╔══██║██║░░╚██╗░░██╔══╝░░██║░██╔██╗░██╔══╝░░██╔══██╗░
+░███████╗██║░░██║╚██████╔╝░░██║░░░░░██║██╔╝╚██╗███████╗██║░░██║░
+░╚══════╝╚═╝░░╚═╝░╚═════╝░░░╚═╝░░░░░╚═╝╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Enabling manager...
+[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Started listening for console LagFixer errors!
+[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Enabled manager in 1ms!
+[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Enabling manager...
+[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded creatures 6 to creature container!
+[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded items 0 to item container!
+[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded fork support ~ xyz.lychee.lagfixer.support.Folia
+[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded nms support ~ xyz.lychee.lagfixer.nms.v1_21_R1.SupportNms
+[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Enabled manager in 36ms!
+[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Enabling manager...
+[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Enabled manager in 178ms!
+[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Enabling manager...
+[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Enabled manager in 0ms!
+[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Enabling manager...
+[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Enabled manager in 5ms!
+[12:37:33] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:37:33] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Enabling manager...
+[12:37:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Sucessfully loaded module EntityLimiter in 3ms.
+[12:37:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Sucessfully loaded module WorldCleaner in 23ms.
+[12:37:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Sucessfully loaded module CustomAi in 17ms.
+[12:37:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Sucessfully loaded module InstantLeafDecay in 2ms.
+[12:37:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Sucessfully loaded module LagMonitor in 4ms.
+[12:37:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Sucessfully loaded module RedstoneLimiter in 5ms.
+[12:37:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Sucessfully loaded module CustomVehicles in 4ms.
+[12:37:33] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Enabled manager in 61ms!
+[12:37:33] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Enabling manager...
+[12:37:33] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Enabled manager in 77ms!
+[12:37:33] [Server thread/INFO]: [[38;5;11m⚡[0m] Remember to leave a rating! ★ ★ ★ ★ ★
+[12:37:33] [Server thread/INFO]: [BackpackPlus] Enabling BackpackPlus v1.4.2
+[12:37:33] [Server thread/INFO]: [BackpackPlus] [Pack] No update needed; current readme is up to date.
+[12:37:33] [Server thread/INFO]: [BackpackPlus] [Settings] Configuration loaded successfully. No missing fields detected.
+[12:37:33] [Server thread/INFO]: [BackpackPlus] [Database] Configuration loaded successfully. No missing fields detected.
+[12:37:33] [Server thread/INFO]: [BackpackPlus] [Database] SQLite Successfully connected to database
+[12:37:33] [Server thread/INFO]: [BackpackPlus] Language used: eng
+[12:37:33] [Server thread/INFO]: [DeleteBats] Enabling DeleteBats v1.0-SNAPSHOT
+[12:37:33] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.7.10.0
+[12:37:34] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
+[12:37:34] [Server thread/INFO]: [LaggRemover] Enabling LaggRemover v2.0.6
+[12:37:34] [Server thread/INFO]: [LaggRemover] [STDOUT] 
+    __                      ____                                         _    _____
+   / /   ____ _____ _____ _/ __ \___  ____ ___  ____ _   _____  _____   | |  / /__ \
+  / /   / __ `/ __ `/ __ `/ /_/ / _ \/ __ `__ \/ __ \ | / / _ \/ ___/   | | / /__/ /
+ / /___/ /_/ / /_/ / /_/ / _, _/  __/ / / / / / /_/ / |/ /  __/ /       | |/ // __/
+/_____/\__,_/\__, /\__, /_/ |_|\___/_/ /_/ /_/\____/|___/\___/_/        |___//____/
+            /____//____/
+
+[12:37:34] [Server thread/WARN]: Nag author(s): '[drew6017]' of 'LaggRemover v2.0.6' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[12:37:34] [Server thread/INFO]: [LaggRemover] Loaded 0 module(s)
+[12:37:34] [Server thread/INFO]: [LaggRemover] The LaggRemover AI is now active!
+[12:37:34] [Server thread/INFO]: [LaggRemover] LaggRemover has been enabled!
+[12:37:34] [Server thread/INFO]: [SpawnerSilk] Enabling SpawnerSilk v5.8.0
+[12:37:34] [Server thread/INFO]: [SpawnerSilk] ShopGUI+ support disabled
+[12:37:34] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.10
+[12:37:34] [Server thread/INFO]: [Discord-Linker] Enabling Discord-Linker v3.4.2
+[12:37:34] [Server thread/INFO]: [fast-leaf-decay] Enabling fast-leaf-decay v1.1.0
+[12:37:34] [Server thread/INFO]: [DeathLocation] Enabling DeathLocation v1.4
+[12:37:34] [Server thread/INFO]: [DeathLocation] ActionBar manager started.
+[12:37:35] [Server thread/INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.9-SNAPSHOT
+[12:37:35] [Server thread/INFO]: [FastChunkPregenerator] >> Paper was found.
+[12:37:35] [Server thread/INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
+[12:37:35] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
+[12:37:35] [Server thread/INFO]: [AuthMe] Created column 'regdate' and set the current timestamp, 1725367055707, to all 0 rows
+[12:37:35] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[12:37:35] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
+[12:37:36] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[12:37:36] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[12:37:36] [Server thread/INFO]: [DontKillFriends] Enabling DontKillFriends v1.0
+[12:37:36] [Server thread/INFO]: [DontKillFriends] DontKillFriends enabled!
+[12:37:36] [Server thread/INFO]: [DeathLogPlugin] Enabling DeathLogPlugin v1.0
+[12:37:36] [Server thread/INFO]: [DeathLogPlugin] DeathLogPlugin has been enabled.
+[12:37:36] [Server thread/INFO]: [DeathLogPlugin] Plugin is created by tuan
+[12:37:36] [Server thread/INFO]: [BannedWordsEffective] Enabling BannedWordsEffective v0.2
+[12:37:36] [Server thread/INFO]: [BannedWordsEffective] Folia not detected, using standard Bukkit scheduling.
+[12:37:36] [Server thread/INFO]: [FreezeHibernate] Enabling FreezeHibernate v1.0
+[12:37:36] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
+[12:37:37] [Thread-16/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[12:37:37] [Thread-16/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[12:37:37] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[12:37:37] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[12:37:37] [Server thread/INFO]: [ClearLag] Loading modules...
+[12:37:37] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (Index 3 out of bounds for length 3)
+[12:37:37] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[12:37:37] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[12:37:37] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[12:37:37] [Thread-17/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
+[12:37:37] [Thread-17/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+[12:37:37] [Thread-17/WARN]: 	at Copy of Clearlag.jar//me.minebuilders.clearlag.Util.getBukkitVersion(Util.java:105)
+[12:37:37] [Thread-17/WARN]: 	at Copy of Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:32)
+[12:37:37] [Thread-17/WARN]: 	at Copy of Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
+[12:37:37] [Thread-17/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[12:37:37] [Server thread/INFO]: [spark] Starting background profiler...
+[12:37:38] [Server thread/INFO]: [FreezeHibernate] Server is frozen until a player joins.
+[12:37:38] [Server thread/INFO]: Done preparing level "world" (28.290s)
+[12:37:38] [Server thread/INFO]: Running delayed init tasks
+[12:37:38] [Craft Scheduler Thread - 7 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[12:37:38] [Craft Scheduler Thread - 7 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[12:37:38] [Craft Scheduler Thread - 10 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 0 ImageMaps!
+[12:37:38] [Craft Scheduler Thread - 7 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[12:37:38] [Server thread/INFO]: Done (42.464s)! For help, type "help"
+[12:37:38] [Server thread/INFO]: *************************************************************************************
+[12:37:38] [Server thread/INFO]: This is the first time you're starting this server.
+[12:37:38] [Server thread/INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
+[12:37:38] [Server thread/INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
+[12:37:38] [Server thread/INFO]: *************************************************************************************
+[12:37:38] [Server thread/INFO]: Timings Reset
+[12:37:38] [Craft Scheduler Thread - 7 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[12:37:38] [Craft Scheduler Thread - 6 - BackpackPlus/INFO]: Plugin is up to date.
+[12:37:38] [Craft Scheduler Thread - 4 - HomePlugin/INFO]: [HomePlugin] There is not a new update available.
+[12:37:38] [Craft Scheduler Thread - 5 - Discord-Linker/INFO]: [Discord-Linker] §aPlugin enabled.
+[12:37:38] [Thread-16/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: otherwise-jewelry.joinmc.link
+[12:37:38] [Thread-16/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
+[12:37:38] [Thread-16/INFO]: playit.gg: tunnel setup
+[12:37:38] [Thread-16/INFO]: playit.gg: otherwise-jewelry.joinmc.link
+[12:37:39] [Thread-16/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:814:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[12:37:39] [Thread-16/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[12:37:39] [EventThread/INFO]: [Discord-Linker] §aConnected to the Discord Bot!
+[12:37:40] [Thread-16/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
