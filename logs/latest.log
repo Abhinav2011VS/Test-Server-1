@@ -1,201 +1,68 @@
-[12:36:56] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Eclipse Adoptium Temurin-21.0.4+7) on Linux 6.5.0-1025-azure (amd64)
-[12:36:56] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-52-master@e08e667 (2024-08-26T18:02:06Z) for Minecraft 1.21.1
-[12:36:57] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[12:36:57] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/AuthMe-5.6.0.jar'...
-[12:37:01] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/AuthMe-5.6.0.jar' in 4133ms.
-[12:37:01] [ServerMain/INFO]: [PluginInitializerManager] Initialized 20 plugins
-[12:37:01] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (20):
+[13:58:39] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Eclipse Adoptium Temurin-21.0.4+7) on Linux 6.5.0-1025-azure (amd64)
+[13:58:39] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-52-master@e08e667 (2024-08-26T18:02:06Z) for Minecraft 1.21.1
+[13:58:39] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:58:40] [ServerMain/INFO]: [PluginInitializerManager] Initialized 21 plugins
+[13:58:40] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - ElytraMaxer (1.0)
+[13:58:40] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (20):
  - AuthMe (5.6.0-bCUSTOM), BackpackPlus (1.4.2), BannedWordsEffective (0.2), Chunky (1.4.10), ClearLag (3.2.2), DeathLocation (1.4), DeathLogPlugin (1.0), DeleteBats (1.0-SNAPSHOT), Discord-Linker (3.4.2), DontKillFriends (1.0), FastChunkPregenerator (2.0.9-SNAPSHOT), FreezeHibernate (1.0), HomePlugin (0.6.4), ImageFrame (1.7.10.0), LagFixer (1.3.25 (build 89)), LaggRemover (2.0.6), SpawnerSilk (5.8.0), fast-leaf-decay (1.1.0), oplogin (1.0-SNAPSHOT), playit-gg (0.1.4)
-[12:37:05] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[12:37:05] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[12:37:05] [ServerMain/INFO]: Found new data pack paper, loading it automatically
-[12:37:06] [ServerMain/INFO]: No existing world data, creating new world
-[12:37:07] [ServerMain/INFO]: Loaded 1290 recipes
-[12:37:07] [ServerMain/INFO]: Loaded 1399 advancements
-[12:37:07] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[12:37:07] [Server thread/INFO]: Loading properties
-[12:37:07] [Server thread/INFO]: This server is running Paper version 1.21.1-52-master@e08e667 (2024-08-26T18:02:06Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[12:37:08] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[12:37:08] [Server thread/INFO]: Using 4 threads for Netty based IO
-[12:37:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[12:37:08] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[12:37:09] [Server thread/INFO]: Default game type: SURVIVAL
-[12:37:09] [Server thread/INFO]: Generating keypair
-[12:37:09] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:37:09] [Server thread/INFO]: Using epoll channel type
-[12:37:09] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[12:37:09] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[12:37:09] [Server thread/INFO]: [oplogin] Loading server plugin oplogin v1.0-SNAPSHOT
-[12:37:09] [Server thread/INFO]: [[38;5;11m⚡[0m] Loading server plugin LagFixer v1.3.25 (build 89)
-[12:37:09] [Server thread/INFO]: [BackpackPlus] Loading server plugin BackpackPlus v1.4.2
-[12:37:09] [Server thread/INFO]: [DeleteBats] Loading server plugin DeleteBats v1.0-SNAPSHOT
-[12:37:09] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.7.10.0
-[12:37:09] [Server thread/INFO]: [LaggRemover] Loading server plugin LaggRemover v2.0.6
-[12:37:09] [Server thread/INFO]: [SpawnerSilk] Loading server plugin SpawnerSilk v5.8.0
-[12:37:09] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.10
-[12:37:09] [Server thread/INFO]: [Discord-Linker] Loading server plugin Discord-Linker v3.4.2
-[12:37:09] [Server thread/INFO]: [HomePlugin] Loading server plugin HomePlugin v0.6.4
-[12:37:09] [Server thread/INFO]: [fast-leaf-decay] Loading server plugin fast-leaf-decay v1.1.0
-[12:37:09] [Server thread/INFO]: [DeathLocation] Loading server plugin DeathLocation v1.4
-[12:37:09] [Server thread/INFO]: [FastChunkPregenerator] Loading server plugin FastChunkPregenerator v2.0.9-SNAPSHOT
-[12:37:09] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
-[12:37:09] [Server thread/INFO]: [DontKillFriends] Loading server plugin DontKillFriends v1.0
-[12:37:09] [Server thread/INFO]: [DeathLogPlugin] Loading server plugin DeathLogPlugin v1.0
-[12:37:09] [Server thread/INFO]: [BannedWordsEffective] Loading server plugin BannedWordsEffective v0.2
-[12:37:09] [Server thread/INFO]: [FreezeHibernate] Loading server plugin FreezeHibernate v1.0
-[12:37:09] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
-[12:37:09] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[12:37:09] [Server thread/INFO]: [HomePlugin] Enabling HomePlugin v0.6.4
-[12:37:09] [Server thread/INFO]: [HomePlugin] YAML has been selected !
-[12:37:09] [Server thread/INFO]: [HomePlugin] Skipping Redis...
-[12:37:09] [Server thread/INFO]: [HomePlugin] Cannot connect to Redis... use default cache!
-[12:37:09] [Server thread/INFO]: [HomePlugin] Registering Homes
-[12:37:09] [Server thread/INFO]: [HomePlugin] Registering Commands
-[12:37:10] [Server thread/INFO]: [HomePlugin] Registering Events
-[12:37:10] [Server thread/INFO]: [HomePlugin] Registering Completers
-[12:37:10] [Server thread/INFO]: [HomePlugin] Registering Spawns
-[12:37:10] [Server thread/WARN]: [HomePlugin] PlaceholderAPI is not installed. Placeholders will not be available.
-[12:37:10] [Server thread/INFO]: [HomePlugin] ----------------------HomePlugin----------------------
-[12:37:10] [Server thread/INFO]: [HomePlugin] ----------HomePlugin a démmaré avec succés !----------
-[12:37:10] [Server thread/INFO]: [HomePlugin] ------------------------------------------------------
-[12:37:10] [Server thread/WARN]: [HomePlugin] No plugins to load skipping...
-[12:37:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:37:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:37:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:37:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:37:10] [Server thread/INFO]: Preparing level "world"
-[12:37:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:37:29] [Server thread/INFO]: Time elapsed: 7327 ms
-[12:37:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[12:37:31] [Server thread/INFO]: Time elapsed: 2466 ms
-[12:37:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[12:37:32] [Server thread/INFO]: Time elapsed: 482 ms
-[12:37:32] [Server thread/INFO]: [oplogin] Enabling oplogin v1.0-SNAPSHOT
-[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m] Enabling LagFixer v1.3.25 (build 89)
-[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m] 
-LagFixer - Best Performance Solution!
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░██╗░░░░░░█████╗░░██████╗░░░███████╗██╗██╗░░██╗███████╗██████╗░░
-░██║░░░░░██╔══██╗██╔════╝░░░██╔════╝██║╚██╗██╔╝██╔════╝██╔══██╗░
-░██║░░░░░███████║██║░░██╗░░░█████╗░░██║░╚███╔╝░█████╗░░██████╔╝░
-░██║░░░░░██╔══██║██║░░╚██╗░░██╔══╝░░██║░██╔██╗░██╔══╝░░██╔══██╗░
-░███████╗██║░░██║╚██████╔╝░░██║░░░░░██║██╔╝╚██╗███████╗██║░░██║░
-░╚══════╝╚═╝░░╚═╝░╚═════╝░░░╚═╝░░░░░╚═╝╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Enabling manager...
-[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Started listening for console LagFixer errors!
-[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Enabled manager in 1ms!
-[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Enabling manager...
-[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded creatures 6 to creature container!
-[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded items 0 to item container!
-[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded fork support ~ xyz.lychee.lagfixer.support.Folia
-[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded nms support ~ xyz.lychee.lagfixer.nms.v1_21_R1.SupportNms
-[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Enabled manager in 36ms!
-[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Enabling manager...
-[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Enabled manager in 178ms!
-[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Enabling manager...
-[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Enabled manager in 0ms!
-[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Enabling manager...
-[12:37:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Enabled manager in 5ms!
-[12:37:33] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[12:37:33] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Enabling manager...
-[12:37:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Sucessfully loaded module EntityLimiter in 3ms.
-[12:37:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Sucessfully loaded module WorldCleaner in 23ms.
-[12:37:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Sucessfully loaded module CustomAi in 17ms.
-[12:37:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Sucessfully loaded module InstantLeafDecay in 2ms.
-[12:37:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Sucessfully loaded module LagMonitor in 4ms.
-[12:37:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Sucessfully loaded module RedstoneLimiter in 5ms.
-[12:37:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Sucessfully loaded module CustomVehicles in 4ms.
-[12:37:33] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Enabled manager in 61ms!
-[12:37:33] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Enabling manager...
-[12:37:33] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Enabled manager in 77ms!
-[12:37:33] [Server thread/INFO]: [[38;5;11m⚡[0m] Remember to leave a rating! ★ ★ ★ ★ ★
-[12:37:33] [Server thread/INFO]: [BackpackPlus] Enabling BackpackPlus v1.4.2
-[12:37:33] [Server thread/INFO]: [BackpackPlus] [Pack] No update needed; current readme is up to date.
-[12:37:33] [Server thread/INFO]: [BackpackPlus] [Settings] Configuration loaded successfully. No missing fields detected.
-[12:37:33] [Server thread/INFO]: [BackpackPlus] [Database] Configuration loaded successfully. No missing fields detected.
-[12:37:33] [Server thread/INFO]: [BackpackPlus] [Database] SQLite Successfully connected to database
-[12:37:33] [Server thread/INFO]: [BackpackPlus] Language used: eng
-[12:37:33] [Server thread/INFO]: [DeleteBats] Enabling DeleteBats v1.0-SNAPSHOT
-[12:37:33] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.7.10.0
-[12:37:34] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
-[12:37:34] [Server thread/INFO]: [LaggRemover] Enabling LaggRemover v2.0.6
-[12:37:34] [Server thread/INFO]: [LaggRemover] [STDOUT] 
-    __                      ____                                         _    _____
-   / /   ____ _____ _____ _/ __ \___  ____ ___  ____ _   _____  _____   | |  / /__ \
-  / /   / __ `/ __ `/ __ `/ /_/ / _ \/ __ `__ \/ __ \ | / / _ \/ ___/   | | / /__/ /
- / /___/ /_/ / /_/ / /_/ / _, _/  __/ / / / / / /_/ / |/ /  __/ /       | |/ // __/
-/_____/\__,_/\__, /\__, /_/ |_|\___/_/ /_/ /_/\____/|___/\___/_/        |___//____/
-            /____//____/
-
-[12:37:34] [Server thread/WARN]: Nag author(s): '[drew6017]' of 'LaggRemover v2.0.6' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[12:37:34] [Server thread/INFO]: [LaggRemover] Loaded 0 module(s)
-[12:37:34] [Server thread/INFO]: [LaggRemover] The LaggRemover AI is now active!
-[12:37:34] [Server thread/INFO]: [LaggRemover] LaggRemover has been enabled!
-[12:37:34] [Server thread/INFO]: [SpawnerSilk] Enabling SpawnerSilk v5.8.0
-[12:37:34] [Server thread/INFO]: [SpawnerSilk] ShopGUI+ support disabled
-[12:37:34] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.10
-[12:37:34] [Server thread/INFO]: [Discord-Linker] Enabling Discord-Linker v3.4.2
-[12:37:34] [Server thread/INFO]: [fast-leaf-decay] Enabling fast-leaf-decay v1.1.0
-[12:37:34] [Server thread/INFO]: [DeathLocation] Enabling DeathLocation v1.4
-[12:37:34] [Server thread/INFO]: [DeathLocation] ActionBar manager started.
-[12:37:35] [Server thread/INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.9-SNAPSHOT
-[12:37:35] [Server thread/INFO]: [FastChunkPregenerator] >> Paper was found.
-[12:37:35] [Server thread/INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
-[12:37:35] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
-[12:37:35] [Server thread/INFO]: [AuthMe] Created column 'regdate' and set the current timestamp, 1725367055707, to all 0 rows
-[12:37:35] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[12:37:35] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
-[12:37:36] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
-[12:37:36] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
-[12:37:36] [Server thread/INFO]: [DontKillFriends] Enabling DontKillFriends v1.0
-[12:37:36] [Server thread/INFO]: [DontKillFriends] DontKillFriends enabled!
-[12:37:36] [Server thread/INFO]: [DeathLogPlugin] Enabling DeathLogPlugin v1.0
-[12:37:36] [Server thread/INFO]: [DeathLogPlugin] DeathLogPlugin has been enabled.
-[12:37:36] [Server thread/INFO]: [DeathLogPlugin] Plugin is created by tuan
-[12:37:36] [Server thread/INFO]: [BannedWordsEffective] Enabling BannedWordsEffective v0.2
-[12:37:36] [Server thread/INFO]: [BannedWordsEffective] Folia not detected, using standard Bukkit scheduling.
-[12:37:36] [Server thread/INFO]: [FreezeHibernate] Enabling FreezeHibernate v1.0
-[12:37:36] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
-[12:37:37] [Thread-16/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
-[12:37:37] [Thread-16/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
-[12:37:37] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[12:37:37] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[12:37:37] [Server thread/INFO]: [ClearLag] Loading modules...
-[12:37:37] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (Index 3 out of bounds for length 3)
-[12:37:37] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[12:37:37] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[12:37:37] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[12:37:37] [Thread-17/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
-[12:37:37] [Thread-17/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
-[12:37:37] [Thread-17/WARN]: 	at Copy of Clearlag.jar//me.minebuilders.clearlag.Util.getBukkitVersion(Util.java:105)
-[12:37:37] [Thread-17/WARN]: 	at Copy of Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:32)
-[12:37:37] [Thread-17/WARN]: 	at Copy of Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
-[12:37:37] [Thread-17/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[12:37:37] [Server thread/INFO]: [spark] Starting background profiler...
-[12:37:38] [Server thread/INFO]: [FreezeHibernate] Server is frozen until a player joins.
-[12:37:38] [Server thread/INFO]: Done preparing level "world" (28.290s)
-[12:37:38] [Server thread/INFO]: Running delayed init tasks
-[12:37:38] [Craft Scheduler Thread - 7 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
-[12:37:38] [Craft Scheduler Thread - 7 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
-[12:37:38] [Craft Scheduler Thread - 10 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 0 ImageMaps!
-[12:37:38] [Craft Scheduler Thread - 7 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
-[12:37:38] [Server thread/INFO]: Done (42.464s)! For help, type "help"
-[12:37:38] [Server thread/INFO]: *************************************************************************************
-[12:37:38] [Server thread/INFO]: This is the first time you're starting this server.
-[12:37:38] [Server thread/INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
-[12:37:38] [Server thread/INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
-[12:37:38] [Server thread/INFO]: *************************************************************************************
-[12:37:38] [Server thread/INFO]: Timings Reset
-[12:37:38] [Craft Scheduler Thread - 7 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
-[12:37:38] [Craft Scheduler Thread - 6 - BackpackPlus/INFO]: Plugin is up to date.
-[12:37:38] [Craft Scheduler Thread - 4 - HomePlugin/INFO]: [HomePlugin] There is not a new update available.
-[12:37:38] [Craft Scheduler Thread - 5 - Discord-Linker/INFO]: [Discord-Linker] §aPlugin enabled.
-[12:37:38] [Thread-16/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: otherwise-jewelry.joinmc.link
-[12:37:38] [Thread-16/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
-[12:37:38] [Thread-16/INFO]: playit.gg: tunnel setup
-[12:37:38] [Thread-16/INFO]: playit.gg: otherwise-jewelry.joinmc.link
-[12:37:39] [Thread-16/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:814:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
-[12:37:39] [Thread-16/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
-[12:37:39] [EventThread/INFO]: [Discord-Linker] §aConnected to the Discord Bot!
-[12:37:40] [Thread-16/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[13:58:44] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:58:44] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[13:58:44] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[13:58:45] [ServerMain/INFO]: No existing world data, creating new world
+[13:58:46] [ServerMain/INFO]: Loaded 1290 recipes
+[13:58:46] [ServerMain/INFO]: Loaded 1399 advancements
+[13:58:46] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[13:58:46] [Server thread/INFO]: Loading properties
+[13:58:46] [Server thread/INFO]: This server is running Paper version 1.21.1-52-master@e08e667 (2024-08-26T18:02:06Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[13:58:47] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[13:58:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:58:47] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:58:48] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[13:58:48] [Server thread/INFO]: Default game type: SURVIVAL
+[13:58:48] [Server thread/INFO]: Generating keypair
+[13:58:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:58:48] [Server thread/INFO]: Using epoll channel type
+[13:58:48] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[13:58:48] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[13:58:49] [Server thread/INFO]: [oplogin] Loading server plugin oplogin v1.0-SNAPSHOT
+[13:58:49] [Server thread/INFO]: [[38;5;11m⚡[0m] Loading server plugin LagFixer v1.3.25 (build 89)
+[13:58:49] [Server thread/INFO]: [BackpackPlus] Loading server plugin BackpackPlus v1.4.2
+[13:58:49] [Server thread/INFO]: [DeleteBats] Loading server plugin DeleteBats v1.0-SNAPSHOT
+[13:58:49] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.7.10.0
+[13:58:49] [Server thread/INFO]: [LaggRemover] Loading server plugin LaggRemover v2.0.6
+[13:58:49] [Server thread/INFO]: [SpawnerSilk] Loading server plugin SpawnerSilk v5.8.0
+[13:58:49] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.10
+[13:58:49] [Server thread/INFO]: [Discord-Linker] Loading server plugin Discord-Linker v3.4.2
+[13:58:49] [Server thread/INFO]: [HomePlugin] Loading server plugin HomePlugin v0.6.4
+[13:58:49] [Server thread/INFO]: [fast-leaf-decay] Loading server plugin fast-leaf-decay v1.1.0
+[13:58:49] [Server thread/INFO]: [DeathLocation] Loading server plugin DeathLocation v1.4
+[13:58:49] [Server thread/INFO]: [FastChunkPregenerator] Loading server plugin FastChunkPregenerator v2.0.9-SNAPSHOT
+[13:58:49] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
+[13:58:49] [Server thread/INFO]: [ElytraMaxer] Loading server plugin ElytraMaxer v1.0
+[13:58:49] [Server thread/INFO]: [DontKillFriends] Loading server plugin DontKillFriends v1.0
+[13:58:49] [Server thread/INFO]: [DeathLogPlugin] Loading server plugin DeathLogPlugin v1.0
+[13:58:49] [Server thread/INFO]: [BannedWordsEffective] Loading server plugin BannedWordsEffective v0.2
+[13:58:49] [Server thread/INFO]: [FreezeHibernate] Loading server plugin FreezeHibernate v1.0
+[13:58:49] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
+[13:58:49] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[13:58:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:58:49] [Server thread/INFO]: [HomePlugin] Enabling HomePlugin v0.6.4
+[13:58:49] [Server thread/INFO]: [HomePlugin] YAML has been selected !
+[13:58:49] [Server thread/INFO]: [HomePlugin] Skipping Redis...
+[13:58:49] [Server thread/INFO]: [HomePlugin] Cannot connect to Redis... use default cache!
+[13:58:49] [Server thread/INFO]: [HomePlugin] Registering Homes
+[13:58:49] [Server thread/INFO]: [HomePlugin] Registering Commands
+[13:58:49] [Server thread/INFO]: [HomePlugin] Registering Events
+[13:58:49] [Server thread/INFO]: [HomePlugin] Registering Completers
+[13:58:49] [Server thread/INFO]: [HomePlugin] Registering Spawns
+[13:58:49] [Server thread/WARN]: [HomePlugin] PlaceholderAPI is not installed. Placeholders will not be available.
+[13:58:49] [Server thread/INFO]: [HomePlugin] ----------------------HomePlugin----------------------
+[13:58:49] [Server thread/INFO]: [HomePlugin] ----------HomePlugin a démmaré avec succés !----------
+[13:58:49] [Server thread/INFO]: [HomePlugin] ------------------------------------------------------
+[13:58:49] [Server thread/WARN]: [HomePlugin] No plugins to load skipping...
+[13:58:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:58:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:58:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:58:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:58:49] [Server thread/INFO]: Preparing level "world"
