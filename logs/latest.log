@@ -67,3 +67,54 @@
 [13:58:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
 [13:58:49] [Server thread/INFO]: Preparing level "world"
 [13:58:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:59:06] [Server thread/INFO]: Time elapsed: 7341 ms
+[13:59:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:59:08] [Server thread/INFO]: Time elapsed: 2220 ms
+[13:59:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:59:09] [Server thread/INFO]: Time elapsed: 528 ms
+[13:59:09] [Server thread/INFO]: [oplogin] Enabling oplogin v1.0-SNAPSHOT
+[13:59:09] [Server thread/INFO]: [[38;5;11m⚡[0m] Enabling LagFixer v1.3.25 (build 89)
+[13:59:09] [Server thread/INFO]: [[38;5;11m⚡[0m] 
+LagFixer - Best Performance Solution!
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░██╗░░░░░░█████╗░░██████╗░░░███████╗██╗██╗░░██╗███████╗██████╗░░
+░██║░░░░░██╔══██╗██╔════╝░░░██╔════╝██║╚██╗██╔╝██╔════╝██╔══██╗░
+░██║░░░░░███████║██║░░██╗░░░█████╗░░██║░╚███╔╝░█████╗░░██████╔╝░
+░██║░░░░░██╔══██║██║░░╚██╗░░██╔══╝░░██║░██╔██╗░██╔══╝░░██╔══██╗░
+░███████╗██║░░██║╚██████╔╝░░██║░░░░░██║██╔╝╚██╗███████╗██║░░██║░
+░╚══════╝╚═╝░░╚═╝░╚═════╝░░░╚═╝░░░░░╚═╝╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+[13:59:09] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Enabling manager...
+[13:59:09] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Started listening for console LagFixer errors!
+[13:59:09] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Enabled manager in 1ms!
+[13:59:09] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Enabling manager...
+[13:59:09] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded creatures 0 to creature container!
+[13:59:09] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded items 0 to item container!
+[13:59:09] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded fork support ~ xyz.lychee.lagfixer.support.Folia
+[13:59:09] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded nms support ~ xyz.lychee.lagfixer.nms.v1_21_R1.SupportNms
+[13:59:09] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Enabled manager in 41ms!
+[13:59:09] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Enabling manager...
+[13:59:10] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Enabled manager in 154ms!
+[13:59:10] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Enabling manager...
+[13:59:10] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Enabled manager in 0ms!
+[13:59:10] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Enabling manager...
+[13:59:10] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Enabled manager in 6ms!
+[13:59:10] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:59:10] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Enabling manager...
+[13:59:10] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Sucessfully loaded module RedstoneLimiter in 10ms.
+[13:59:10] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Sucessfully loaded module WorldCleaner in 15ms.
+[13:59:10] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Sucessfully loaded module CustomAi in 18ms.
+[13:59:10] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Sucessfully loaded module LagMonitor in 2ms.
+[13:59:10] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Sucessfully loaded module CustomVehicles in 3ms.
+[13:59:10] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Sucessfully loaded module InstantLeafDecay in 1ms.
+[13:59:10] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Sucessfully loaded module EntityLimiter in 2ms.
+[13:59:10] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Enabled manager in 54ms!
+[13:59:10] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Enabling manager...
+[13:59:10] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Enabled manager in 79ms!
+[13:59:10] [Server thread/INFO]: [[38;5;11m⚡[0m] Remember to leave a rating! ★ ★ ★ ★ ★
+[13:59:10] [Server thread/INFO]: [BackpackPlus] Enabling BackpackPlus v1.4.2
+[13:59:10] [Server thread/INFO]: [BackpackPlus] [Pack] No update needed; current readme is up to date.
+[13:59:10] [Server thread/INFO]: [BackpackPlus] [Settings] Configuration loaded successfully. No missing fields detected.
+[13:59:10] [Server thread/INFO]: [BackpackPlus] [Database] Configuration loaded successfully. No missing fields detected.
+[13:59:10] [Server thread/INFO]: [BackpackPlus] [Database] SQLite Successfully connected to database
+[13:59:10] [Server thread/INFO]: [BackpackPlus] Language used: eng
