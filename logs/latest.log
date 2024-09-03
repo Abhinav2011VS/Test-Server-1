@@ -193,3 +193,18 @@ LagFixer - Best Performance Solution!
 [14:18:34] [Thread-16/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:860:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
 [14:18:34] [Thread-16/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
 [14:18:35] [EventThread/INFO]: [Discord-Linker] §aConnected to the Discord Bot!
+[14:18:58] [Thread-16/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.143.194:22550, peerAddr=49.204.17.127:19040, claimAddress=209.25.140.2:43784, claimToken=[44, 0, 60, -47, 25, -113, -62, 88, 22, 49, -52, 17, 127, 74, 96, 83, -88, -6, -46, -85, 8, 102, -41, 26, -46, 0, 0, 0, 0, 0, 9, -24, 75, 0, 0, 0, 0, 0, 54, -15, 19, 81, -46, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 24, -49, 96, -9, 35, 5, 28, 85, 109, -124, -35, -74, -38, 62, 126, -61], tunnelServerId=1, dataCenterId=28}
+[14:18:58] [Thread-16/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[14:18:58] [Thread-16/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43784 to claim client
+[14:18:58] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[14:18:58] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[14:18:58] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[14:18:58] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[14:18:58] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[14:18:58] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[14:18:58] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[14:18:59] [User Authenticator #0/INFO]: UUID of player SupremeProMax is 14920dfc-e534-38a1-91e0-3aed4442bb9c
+[14:19:00] [Server thread/INFO]: [FreezeHibernate] A player joined. Server is now unfrozen.
+[14:19:00] [Server thread/INFO]: SupremeProMax joined the game
+[14:19:00] [Server thread/INFO]: SupremeProMax[/127.0.0.1:46380] logged in with entity id 57 at ([world]117.76010853748308, 94.0, 57.99498491886499)
+[14:19:04] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 7c5e8a88-3287-4776-a92d-4d1860155aaa, mapped to Goat['Goat'/251, uuid='7c5e8a88-3287-4776-a92d-4d1860155aaa', l='ServerLevel[world]', x=239.89, y=146.00, z=-16.86, cpos=[14, -2], tl=5485, v=true], can't add Goat['Goat'/277, uuid='7c5e8a88-3287-4776-a92d-4d1860155aaa', l='ServerLevel[world]', x=240.99, y=145.00, z=-17.99, cpos=[15, -2], tl=5505, v=false]
